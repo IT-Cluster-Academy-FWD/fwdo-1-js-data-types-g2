@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width= , initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/solomiia.css" />
+    <title>Questionnaire program</title>
+  </head>
+  <body>
+    <h2>Анкета</h2>
+    <p>Як вас звати?</p>
+    <input type="text" id="fname" required />
+    <br />
+    <br />
+    <p>Скільки вам років?</p>
+    <input type="number" name="number" id="age" min="0" max="110" required />
+    <br />
+    <br />
+    <p>Ким ви працюєте?</p>
+    <input type="text" id="job" required />
+    <br />
+    <br />
+    <p>Ваш улюблений автор?</p>
+    <input type="text" id="author" required />
+    <br />
+    <br />
+    <p>Ваш улюблений колір?</p>
+    <input type="text" id="color" required />
+    <br />
+    <br />
+    <input type="submit" value="Відправити" onclick="submit()" />
+    <br />
+    <br />
+    <div id="text"></div>
+    <script src="../js/solomiya.js"></script>
+  </body>
+</html>
